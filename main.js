@@ -10,7 +10,7 @@ class color {
     }
     duplicate(e) {
         let dup = document.createElement("div");
-        dup.innerHTML = this.elem.id.split("-")[0].trim();
+        dup.innerHTML = "&emsp;&emsp;&nbsp;&nbsp;";
         dup.classList.add("color");
         dup.style.backgroundColor = this.elem.id.split("-")[0].trim();
         dup.style.top = e.clientY + 'px';
